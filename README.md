@@ -1,11 +1,3 @@
-# Nome do repositório
-alvesflix-streaming-html-css
-
-# Descrição
-Projeto multimídia inspirado em plataformas de streaming, desenvolvido com HTML e CSS. O site possui filmes, séries, animes e músicas com players de áudio e vídeo, banner interativo, responsividade, efeitos visuais e layout moderno estilo Netflix.
-
-# README.md
-
 ```md
 # AlvesFlix 🎬
 
