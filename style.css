@@ -1,0 +1,221 @@
+
+/* pg inicial */
+
+.banner{
+    height: 600px;
+    padding: 130px;
+    background-image: url(imagem/banner2.png);   /* imagem feita com IA */
+    background-size: cover;
+    background-position: center; 
+}
+
+.assistir{
+    position: absolute;
+    bottom: 280px;
+    left: 345px;
+    padding: 18px 40px;
+    border: 2px solid red;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    background-color: rgba(0,0,0,0.4);
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+.assistir:hover{
+    background-color: red;
+    box-shadow: 0 0 20px red;
+}
+
+/* site completo */
+
+.container{
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;   /* negrito */
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: red;        
+}
+
+.inicial{
+    height: 580px;
+    padding: 60px;
+    background-image: url(imagem/banner.png);    /* foto feita com IA */
+    background-size: cover;
+    background-position: center;    
+}
+
+.home {
+    text-align: center;
+}
+
+.home h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.home p{
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;    /* espacamento entre linhas */
+}
+
+.categorias{
+    padding: 60px;
+}
+
+.categorias h2{
+    color: red;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.filmes, .series, .animes, .musicas{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.filme, .serie, .anime, .musica{
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+.filme:hover, .serie:hover, .anime:hover, .musica:hover{
+    transform: scale(1.05);
+    background-color: #111;
+    box-shadow: 0 0 20px red;
+   
+}
+
+.filme h3, .serie h3, .anime h3, .musica h3{
+    margin: 10px;
+    font-size: 20px;
+    color: #d1d1d1;
+}
+
+video{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+audio{
+    width: 100%;
+    margin: 10px;
+}
+
+.capa{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: #999;
+}
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a{
+        margin: 10px;
+    }
+
+    .inicial{
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .inicial h1{
+        font-size: 40px;
+    }
+
+    .inicial p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .categorias{
+        padding: 30px 20px;
+    }
+
+    .filmes,
+    .series,
+    .animes,
+    .musicas{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .filme,
+    .serie,
+    .anime,
+    .musica{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    video,
+    audio,
+    .capa{
+        width: 100%;
+    }
+}
