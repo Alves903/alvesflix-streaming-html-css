@@ -1,75 +1,50 @@
-```md
 # AlvesFlix 🎬
 
 Projeto multimídia desenvolvido com HTML e CSS inspirado em plataformas de streaming como a Netflix.
 
 ## 📌 Sobre o Projeto
 
-O AlvesFlix foi criado como atividade prática utilizando recursos multimídia do HTML, incluindo:
+O AlvesFlix foi criado como atividade prática utilizando recursos multimídia do HTML, incluindo filmes, séries, animes e músicas com players de vídeo e áudio, além de um layout moderno inspirado em plataformas de streaming.
 
-- Áudios
-- Vídeos
-- Posters
-- Banner principal
-- Cards organizados
-- Responsividade
-- Efeitos visuais com CSS
-
-O projeto apresenta uma interface moderna com categorias de filmes, séries, animes e músicas.
+O site conta com banner principal, menu de navegação fixo, cards organizados por categorias e efeitos visuais em CSS.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-- HTML5
-- CSS3
+- HTML5  
+- CSS3  
 
 ---
 
-## 🎵 Recursos do Projeto
+## 🎵 Funcionalidades
 
-### Áudios
-- Player de áudio
-- Loop infinito
-- Imagens de capa
-- Controles funcionando
+### 🎬 Vídeos
+- Player de vídeo com controles
+- Uso de poster (imagem de capa)
+- Organização em cards
 
-### Vídeos
-- Player de vídeo
-- Poster personalizado
-- Controles funcionando
+### 🎧 Áudios
+- Player de áudio funcional
+- Loop em músicas selecionadas
+- Imagens de capa para cada música
 
-### Interface
-- Navbar fixa
+### 🎨 Interface
+- Layout estilo streaming (Netflix)
+- Menu fixo no topo
 - Banner principal
-- Layout responsivo
-- Hover com animação
-- Estilo inspirado em streaming
-
----
-
-## 📂 Estrutura de Pastas
-
-```txt
-Projeto/
-│
-├── index.html
-├── style.css
-│
-├── audio/
-├── video/
-└── imagem/
-```
+- Efeitos de hover com animação
+- Sombra e bordas arredondadas
+- Design escuro com destaque em vermelho
 
 ---
 
 ## 📱 Responsividade
 
-O site possui responsividade simples para dispositivos menores utilizando media queries.
+O site é adaptado para telas menores com ajustes de layout usando media queries.
 
 ---
 
 ## 👨‍💻 Autor
 
 Desenvolvido por Lukas Alves.
-```
